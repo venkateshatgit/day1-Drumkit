@@ -1,0 +1,34 @@
+body{
+	background: url(image.png) no-repeat center center fixed;
+	background-size: cover;
+	text-align: center;
+	font-family: 'Arvo', cursive;
+}
+
+.set{
+	position: relative;
+	top: 15rem;	
+}
+
+.w{
+
+}
+.drum{
+	margin: 1rem;
+	height: 7rem;
+	width: 7rem;
+	background-color: black;
+	opacity: 0.5;
+	color: white;
+	font-size: 4rem;
+	border: 1px solid black;
+	box-shadow: 0 3px 5px 0 black;
+}
+
+.pressed{
+	transform: scale(0.9);
+	box-shadow: 0rem 2rem 1rem 0 #6A097D;
+	opacity: 0.3;
+}
+
+
